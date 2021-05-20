@@ -1,6 +1,12 @@
 # fastapi-tutorial
 > tutorial for fastapi
 
+## TODO
+- [ ] Postgres Setup
+- [ ] SQLAlchemy Model
+- [ ] Add entity Route with Controller( `Note` )
+- [ ] CRUD with async
+- [ ] CQRS
 
 ## setup
 ```bash
@@ -11,7 +17,19 @@ pip install fastapi
 pip install 'uvicorn[standard]'
 ```
 
-## start:dev
+## run:dev
 ```bash
-uvicorn main:app --reload
+$ docker-compose up -d --build
+# http://localhost:8002/ping
 ```
+
+## run:test
+```bash
+$ pytest .
+```
+
+
+## refs
+
+- [awesome-fastapi-async-crud](https://testdriven.io/blog/fastapi-crud/)
+
