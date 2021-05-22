@@ -7,6 +7,7 @@
 - [ ] Add entity Route with Controller( `Note` )
 - [ ] CRUD with async
 - [ ] CQRS
+- [ ] Docker-compose 세팅
 
 ## setup
 ```bash
